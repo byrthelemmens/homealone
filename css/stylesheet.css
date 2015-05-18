@@ -1,2 +1,8 @@
 body {
-  background-color: #33ffff; }
+  background-color: lightyellow; }
+
+h1 {
+  /*font-family: 'Sancreek', cursive;*/
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 80px;
+  color: #000; }
