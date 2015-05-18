@@ -4,6 +4,7 @@ body{
 	background-color:$bg;
 	p{
 	font-size:24px;
+	color:#000;
 	}
 }
 h1{
@@ -15,11 +16,13 @@ h1{
 h2{
 	font-family:$ffam;
 	font-size:40px;
+	color:#000;
+	margin-top:50px;
 }
 .dates{
 	font-family:$ffam;
 	font-size:24px;
-	color:blue;
+	color:#000;
 	display:inline-block;
 	padding:0;
 	margin:0;
