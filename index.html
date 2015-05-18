@@ -30,36 +30,39 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <video autoplay  poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" loop>
+        <video autoplay  poster="img/screenshot04.png" id="bgvid" loop>
           <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
         
-        <source src="video/video04.mp4" type="video/mp4">
+        <source src="video/video04.mp4" type="video/mp4"> 
         </video>
 
 
         <div class="container-fluid">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <h1>Home Alone</h1>
-            </div><!-- /col 12-->
+            
 
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <h1>Home Alone</h1>
+
                 <p>
-                    Home Alone is a residency program for artists, concluding with an event that will evolve around both the work made and the making, from and for people inside and outside of the arts. 
+                    Home Alone is a residency program for artists consisting out of a working period of 5 days, concluding with an one day event. This event will evolve around both the work made and the making, from and for people inside and outside of the arts. 
                 </p>
                 <h2>Home Alone at the Vondelstraat</h2>
                 <p>
-                    Between <span class="dates">26.05.15 — 14.06.15</span>, Home Alone will take place in Amsterdam, at the house of Kater’s parents, while they are on a holiday.
+                    Between the May 26 and the June 14, Home Alone will take place in Amsterdam, at the house of the parents of initiator Tirza Kater, while they are on a holiday.
                     
                 </p>
-                <h2>Working Period 1</h2>
+                <h2>Working Period 1 <br> 
+                    26.05.15 — 30.05.15</h2>
                 <p>
-                    Petros Panagiotis Orfanos in collaboration with Lotte Boon will work at Home Alone from <span class="dates">26.05.15 — 30.05.15</span>, concluding their working period with an event taking place on <span class="dates">31.05.15</span>. 
+                    Petros Panagiotis Orfanos in collaboration with Lotte Boon will work at Home Alone, concluding their working period with an event taking place on 31.05.15. 
                 </p>
-                <h2>Working Period 2</h2>
+                <h2>Working Period 2 <br>
+                    02.06.2015 - 06.06.2015</h2>
                 <p>
                     Elke Baggen
                 </p>
-                <h2>Working Period 3</h2>
+                <h2>Working Period 3 <br>
+                    08.06.2015 - 13.06.2015</h2>
                 <p>
                     T.B.A.
                 </p>
@@ -68,7 +71,7 @@
                     Save the dates for upcoming events:<br>
                     <span class="dates">31.05.15:</span> Petros Panagiotis Orfanos & Lotte Boon <br>
                     <span class="dates">07.06.15</span>: Elke Baggen<br>
-                    <span class="dates">14.06.15</span>: t.b.a.  
+                    <span class="dates">14.06.15</span>: T.B.A.  
                 </p>
                 <h2>Newsletter.</h2>
                 <p>
@@ -77,14 +80,18 @@
 
                 <h2>Colofon</h2>
                 <p>
-                Home Alone is organised and compiled by Marek van de Watering and Tirza Kater. Home alone is not sponsored by AFK.
+                Home Alone is organised and compiled by Tirza Kater and Marek van de Watering. <br>
+                
+                Website by Polarlicht (Elki Boerdam & Byrthe Lemmens)
                 </p>
             </div><!-- /col 6-->
 
-            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-               
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="text-align:right;">
+               <div style="position:fixed; right:30px;"><h1>Current</h1>
+               <p>Lotte Boon & Petros Panagiotis Orfanos<br>
+                <u>watch event livestream</u></p></div>
             </div><!-- /col 6-->
-            <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+            
 
         </div><!-- /container-fluid-->
 
@@ -108,6 +115,7 @@
             // to capture IE10
             vidFade();
             }); 
+
 
 
             pauseButton.addEventListener("click", function() {

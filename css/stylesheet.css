@@ -1,6 +1,8 @@
 body p {
-  font-size: 24px;
-  color: #fff; }
+  font-size: 26px;
+  color: #fff;
+  font-weight: lighter;
+  letter-spacing: 1px; }
 body h1 {
   /*font-family: 'Sancreek', cursive;*/
   font-family: "Averia Serif Libre", cursive;
@@ -13,7 +15,7 @@ body h2 {
   color: #fff; }
 body .dates {
   font-family: "Averia Serif Libre", cursive;
-  font-size: 24px;
+  font-size: 28px;
   display: inline-block;
   padding: 0;
   margin: 0;
