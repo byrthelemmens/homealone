@@ -2,10 +2,25 @@
 
 body{
 	background-color:$bg;
+	p{
+	font-size:24px;
+	}
 }
 h1{
 	/*font-family: 'Sancreek', cursive;*/
-	font-family: 'Averia Serif Libre', cursive;
+	font-family:$ffam;
 	font-size:80px;
 	color:#000;
+}
+h2{
+	font-family:$ffam;
+	font-size:40px;
+}
+.dates{
+	font-family:$ffam;
+	font-size:24px;
+	color:blue;
+	display:inline-block;
+	padding:0;
+	margin:0;
 }
