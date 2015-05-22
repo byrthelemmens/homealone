@@ -1,10 +1,22 @@
+body a {
+  background: 0,0,0,0;
+  text-decoration: none; }
+body a:hover {
+  background: 0,0,0,0;
+  text-decoration: none;
+  color: #009900; }
+body a:visited {
+  background: 0,0,0,0;
+  text-decoration: none; }
+body a:active {
+  background: 0,0,0,0;
+  text-decoration: none; }
 body p {
   font-size: 26px;
   color: #fff;
   font-weight: lighter;
   letter-spacing: 1px; }
 body h1 {
-  /*font-family: 'Sancreek', cursive;*/
   font-family: "Averia Serif Libre", cursive;
   font-size: 80px;
   color: #fff; }
@@ -39,7 +51,8 @@ video {
   height: auto;
   z-index: -100;
   transform: translateX(-50%) translateY(-50%);
-  background: url("//demosthenes.info/assets/images/polina.jpg") no-repeat;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  background: url("img/screenshot04.png") no-repeat;
   background-size: cover;
   transition: 1s opacity; }
 
@@ -89,7 +102,7 @@ a:hover {
     width: 70%; } }
 @media screen and (max-device-width: 800px) {
   html {
-    background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+    background: url(img/screenshot04.png) #000 no-repeat center center fixed; }
 
   #bgvid {
     display: none; } }

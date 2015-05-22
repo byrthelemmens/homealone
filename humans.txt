@@ -1,15 +1,10 @@
 # humanstxt.org/
-# The humans responsible & technology colophon
 
 # TEAM
+	Organised by:
+	Tirza Kater
+	Marek van de Watering
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
-
-# TECHNOLOGY COLOPHON
-
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+	Design:	
+    Polarlicht www.polarlicht.nl
+    (Elki Boerdam &  Byrthe Lemmens) 
