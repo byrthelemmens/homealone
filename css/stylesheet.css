@@ -56,6 +56,18 @@ video {
   background-size: cover;
   transition: 1s opacity; }
 
+
+#notes{
+  max-width:500px;
+}
+
+#img{
+  text-align:right;
+}
+
+
+
+
 .stopfade {
   opacity: .5; }
 
