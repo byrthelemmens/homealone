@@ -59,10 +59,21 @@ video {
 
 #notes{
   max-width:500px;
+
+}
+
+#notes p{
+  margin-top:30px;
+
 }
 
 #img{
   text-align:right;
+
+}
+
+#img span{
+  margin-top:30px;
 }
 
 
