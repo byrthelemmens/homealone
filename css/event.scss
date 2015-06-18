@@ -1,0 +1,30 @@
+@import 'values';
+
+body{
+	background-color:rgb(0, 153, 0);
+	}
+
+.row{
+  background:none;
+  padding:0 30px;
+}
+@media screen and (max-width: 768px) {
+      .row{
+        padding:0;
+  }
+}
+
+#notes{
+  p{
+  margin-top:30px;
+  }
+}
+
+#img{
+  text-align:right;
+  
+  span{
+    margin-top:30px;
+  }
+}
+
