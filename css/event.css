@@ -1,5 +1,6 @@
-body {
-  background-color: #009900; }
+.container-fluid {
+  background-color: #009900;
+  width: 100%; }
 
 .row {
   background: none;
@@ -8,10 +9,13 @@ body {
 @media screen and (max-width: 768px) {
   .row {
     padding: 0; } }
-#notes p {
-  margin-top: 30px; }
+#notes {
+  padding-right: 20px; }
+  #notes p {
+    margin-top: 30px; }
 
 #img {
-  text-align: right; }
+  text-align: right;
+  padding-left: 20px; }
   #img span {
     margin-top: 30px; }

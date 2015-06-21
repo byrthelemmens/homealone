@@ -1,1 +1,1 @@
-body{background-color:#090}.row{background:0 0;padding:0 30px}@media screen and (max-width:768px){.row{padding:0}}#notes p{margin-top:30px}#img{text-align:right}#img span{margin-top:30px}
+.container-fluid{background-color:#090;width:100%}.row{background:0 0;padding:0 30px}@media screen and (max-width:768px){.row{padding:0}}#notes{padding-right:20px}#notes p{margin-top:30px}#img{text-align:right;padding-left:20px}#img span{margin-top:30px}
