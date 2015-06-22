@@ -4,10 +4,11 @@ body a {
 body a:hover {
   background: 0,0,0,0;
   text-decoration: none;
-  color: #009900; }
+  color: #009900 !important; }
 body a:visited {
   background: 0,0,0,0;
-  text-decoration: none; }
+  text-decoration: none;
+  color: #FFFFFF; }
 body a:active {
   background: 0,0,0,0;
   text-decoration: none; }
@@ -40,6 +41,13 @@ body .dates {
 @media screen and (max-width: 768px) {
   .container-fluid {
     background-color: #009900; } }
+.registration {
+  font-size: 16px;
+  font-family: "Averia Serif Libre", cursive; }
+
+.glyphicon {
+  font-size: 14px; }
+
 /* VIIIDDDEEEOOOOO */
 video {
   position: fixed;
