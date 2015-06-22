@@ -42,13 +42,16 @@ body .dates {
   .container-fluid {
     background-color: #009900; } }
 .registration {
-  background-color: #009900; }
+  font-size: 20px;
+  top: 0px;
+  font-family: "Averia Serif Libre", cursive;
+  color: #fff; }
 
 .registration a:hover {
-  color: blue !important; }
+  color: #009900; }
 
 .glyphicon {
-  font-size: 14px; }
+  font-size: 18px; }
 
 /* VIIIDDDEEEOOOOO */
 video {

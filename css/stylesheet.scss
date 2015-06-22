@@ -42,13 +42,16 @@ body{
 	}
 }
 .registration{
-  background-color:#009900;
+  font-size:20px;
+  top:0px;
+  font-family:$ffam;
+  color:#fff;
 }
 .registration a:hover{
-  color:blue !important;
+  color:#009900;
 }
 
-.glyphicon{font-size:14px;}
+.glyphicon{font-size:18px;}
 
 
 
