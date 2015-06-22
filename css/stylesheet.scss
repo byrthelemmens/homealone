@@ -41,7 +41,13 @@ body{
 	    	background-color:rgb(0, 153, 0);
 	}
 }
-.registration{font-size:16px; font-family:$ffam;}
+.registration{
+  background-color:#009900;
+}
+.registration a:hover{
+  color:blue !important;
+}
+
 .glyphicon{font-size:14px;}
 
 

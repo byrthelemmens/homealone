@@ -42,8 +42,10 @@ body .dates {
   .container-fluid {
     background-color: #009900; } }
 .registration {
-  font-size: 16px;
-  font-family: "Averia Serif Libre", cursive; }
+  background-color: #009900; }
+
+.registration a:hover {
+  color: blue !important; }
 
 .glyphicon {
   font-size: 14px; }
